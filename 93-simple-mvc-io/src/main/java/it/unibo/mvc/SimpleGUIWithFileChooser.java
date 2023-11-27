@@ -83,7 +83,6 @@ public final class SimpleGUIWithFileChooser {
         final int sh = (int) screen.getHeight();
         frame.setSize(sw / PROPORTION, sh / PROPORTION);
         frame.setLocationByPlatform(true);
-        frame.pack();
         frame.setVisible(true);
     }
 
